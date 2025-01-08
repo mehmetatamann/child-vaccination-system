@@ -1,7 +1,3 @@
-Sure, here's your README file in English:
-
----
-
 # (Child Vaccination and Tracking System)
 
 ## Project Description
