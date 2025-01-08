@@ -1,0 +1,75 @@
+/* Genel stiller */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+}
+
+/* Başlık stilleri */
+h5.text-center {
+    font-size: 24px;
+    font-weight: bold;
+    color: #343a40;
+    margin-top: 30px;
+}
+
+/* Form container */
+.container {
+    margin-top: 20px;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Form jumbotron */
+.jumbotron {
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #e9ecef;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Form etiketleri */
+label {
+    font-size: 16px;
+    font-weight: 600;
+    color: #495057;
+}
+
+/* Form seçme kutuları ve inputlar */
+select.form-control, input.form-control {
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* Form butonu */
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+/* Mobil uyumluluk */
+@media (max-width: 767px) {
+    .col-md-6 {
+        padding: 0;
+    }
+    .container {
+        padding: 20px;
+    }
+    .jumbotron {
+        padding: 20px;
+    }
+}

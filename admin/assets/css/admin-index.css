@@ -1,0 +1,47 @@
+/* Stat Card Genel Stil */
+.stat-card {
+    height: 130px;
+    padding: 20px;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(201, 4, 4, 0.1);
+    margin-bottom: 15px;
+}
+
+.stat-card .icon {
+    font-size: 3rem;
+}
+
+.stat-card h5 {
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+}
+
+.stat-card .card-content {
+    padding-top: 10px;
+}
+
+.stat-card .card-title {
+    font-weight: bold;
+}
+
+.stat-card a {
+    color: white;
+}
+
+/* Responsive design için mobil uyumlu stil */
+@media (max-width: 768px) {
+    .stat-card {
+        margin-bottom: 15px;
+    }
+
+    .stat-card .col-md-8, .stat-card .col-md-4 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+.stat-card h6 {
+    color: white;
+    font-size: 20px;
+}
